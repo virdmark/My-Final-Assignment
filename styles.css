@@ -1,0 +1,80 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.sidebar {
+    background-color: #f4f4f4;
+    padding: 15px;
+    width: 20%;
+    float: left;
+}
+
+.content {
+    padding: 15px;
+    width: 60%;
+    float: left;
+}
+
+.contact {
+    padding: 15px;
+    width: 20%;
+    float: left;
+}
+
+footer {
+    clear: both;
+}
+
+button {
+    margin: 5px 0;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
