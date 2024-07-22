@@ -55,3 +55,30 @@ th, td {
     padding: 15px;
     text-align: left;
 }
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 1em;
+}
+
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
