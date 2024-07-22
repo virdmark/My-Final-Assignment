@@ -3,32 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>My Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>My Website</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="game.html">Game</a>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="game.html">Game</a></li>
-        </ul>
-    </nav>
     <aside class="left-sidebar">
         <h2>Useful Links</h2>
         <ul>
             <li><a href="https://www.ritsumei.ac.jp/ct/" target="_blank">Manaba+R</a></li>
-            <li><a href="https://www.pythonanywhere.com/" target="_blank">pythonanywhere</a></li>
-            <li><a href="https://www.google.co.jp/" target="_blank">Google</a></li>
+            <li><a href="https://www.pythonanywhere.com" target="_blank">pythonanywhere</a></li>
+            <li><a href="https://www.google.co.jp/" target="_blank">google</a></li>
         </ul>
     </aside>
     <main>
         <h2>About Me</h2>
-        <p>Hello!  I am a student studying Information Systems Engineering. I have a passion for web development and enjoy creating interactive and dynamic web applications. My interests include coding, reading tech blogs, and playing video games.</p>
-        <img src="myphoto.png" alt="A photo of my Github Account">
+        <p>Hello! I am a student studying Information Systems Engineering. I have a passion for web development and enjoy creating interactive and dynamic web applications. My interests include coding, reading tech blogs, and playing video games.</p>
+        <img src="myphoto.png" alt="My Github Picture">
     </main>
     <aside class="right-sidebar">
         <h2>Contact Me</h2>
@@ -37,14 +35,15 @@
             <input type="text" id="name" name="name"><br><br>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email"><br><br>
-            <label for="message">Message:</label><br>
+            <label for="message">Message:</label>
             <textarea id="message" name="message"></textarea><br><br>
             <button type="submit">Submit</button>
             <button type="reset">Clear</button>
         </form>
     </aside>
     <footer>
-        <p>Created on: 2024-07-22</p>
+        <p>Date of creation: 2024</p>
     </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
