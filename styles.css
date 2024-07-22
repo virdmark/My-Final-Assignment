@@ -1,68 +1,45 @@
-/* styles.css */
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-header, footer {
-    background-color: #f8f8f8;
-    text-align: center;
-    padding: 10px 0;
-}
-
-header h1, footer p {
-    margin: 0;
-}
-
-nav {
-    background-color: #333;
+header {
+    background-color: #4CAF50;
     color: white;
+    padding: 1em;
     text-align: center;
-    padding: 10px 0;
 }
 
 nav a {
+    margin: 0 15px;
     color: white;
     text-decoration: none;
-    margin: 0 15px;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
-.sidebar {
+.left-sidebar, .right-sidebar {
     background-color: #f4f4f4;
-    padding: 15px;
-    width: 20%;
-    float: left;
+    padding: 1em;
 }
 
-.content {
-    padding: 15px;
-    width: 60%;
-    float: left;
-}
-
-.contact {
-    padding: 15px;
-    width: 20%;
-    float: left;
+main {
+    flex: 1;
+    padding: 1em;
+    background-color: #ffffff;
 }
 
 footer {
-    clear: both;
-}
-
-button {
-    margin: 5px 0;
-}
-
-.table-container {
-    width: 100%;
-    overflow-x: auto;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
 }
 
 table {
@@ -75,6 +52,6 @@ table, th, td {
 }
 
 th, td {
-    padding: 10px;
+    padding: 15px;
     text-align: left;
 }
