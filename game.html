@@ -19,14 +19,26 @@
         <h2>Quiz Game</h2>
         <form id="quizForm">
             <label for="username">Name:</label>
-            <input type="text" id="username" name="username"><br><br>
-            How are you today？
+            <input type="text" id="username" name="username" required><br><br>
+            <fieldset>
+                <legend>What fruit did you eat today? (Select all that apply)</legend>
+                <label><input type="checkbox" name="fruit" value="apple"> apple</label><br>
+                <label><input type="checkbox" name="fruit" value="banana"> banana</label><br>
+                <label><input type="checkbox" name="fruit" value="orange"> orange</label><br>
+                <label><input type="checkbox" name="fruit" value="grape"> grape</label><br>
+                <label><input type="checkbox" name="fruit" value="mango"> mango</label><br>
+                <label><input type="checkbox" name="fruit" value="strawberry"> strawberry</label><br>
+            </fieldset>
+            <br>
             <button type="button" onclick="submitQuiz()">Submit</button>
         </form>
     </main>
     <footer>
         <p>Date of creation: 2024</p>
+        <a href="https://yourblog.com">Blog</a>
+        <a href="https://yoursocialmedia.com">Social Media</a>
     </footer>
     <script src="scripts.js"></script>
 </body>
 </html>
+
